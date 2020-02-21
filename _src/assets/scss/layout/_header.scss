@@ -16,15 +16,15 @@
 
 
 .container__page {
-
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   height: 100vh;
   border: solid brown 3px;
   background-image: url("/assets/images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
-
+  background-position: center;
 }
 
 
@@ -36,20 +36,43 @@
   color: white;
 
 
-
-
   &__primary {
     font-family: 'Roboto Slab', ;
     font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 
 
   }
 
   &__secondary {
 
-    font-family: 'Roboto', ;
-    font-size: 16px;
+    font-family: 'Roboto Slab', ;
+    text-transform: uppercase;
+    font-size: 44px;
+    margin-bottom: 30px;
 
+    &__tertiary {
+      font-size: 16px;
+      font-family: 'Roboto', ;
+      margin-bottom: 30px;
+
+
+    }
   }
 
+}
+
+
+.scroll__top {
+  background-color: white;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  img {
+    margin: auto;
+  }
 }
