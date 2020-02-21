@@ -1,2 +1,31 @@
 @import "core/settings";
 @import "core/_reset";
+@import "layout/_header";
+
+
+
+
+.primary__section {
+
+  border: solid blue 3px;
+}
+
+.secondary__section {
+
+  border: solid yellow 3px;
+
+}
+
+.links__articles {
+  border: solid palevioletred 3px;
+}
+
+.links__redes {
+
+  border: black solid 3px;
+}
+
+.footer {
+
+  border: solid green 3px;
+}
