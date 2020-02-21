@@ -8,19 +8,18 @@
 
 
   img {
-    display: block;
-    margin: auto;
+    position: relative;
+    top: 15px;
+    left: 15px;
 
   }
 }
-
 
 .container__page {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  border: solid brown 3px;
   background-image: url("/assets/images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;

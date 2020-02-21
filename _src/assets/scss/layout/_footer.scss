@@ -1,8 +1,48 @@
-// .page__footer {
-//   position: fixed;
-//   left: 0;
-//   bottom: 0;
-//   width: 100vw;
-//   padding: 1rem;
-//   color: $color-secondary;
-// }
+.footer {
+
+  background-color: #304268;
+  text-align: center;
+}
+
+.buttom__scroll__up {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  top: -23px;
+
+  img {
+    position: relative;
+    top: 12px;
+
+  }
+}
+
+.menu__footer {
+  text-transform: uppercase;
+
+  font-family: 'Roboto Slab', ;
+  font-size: 14px;
+  line-height: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+.links__articles {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.copyright {
+
+  p {
+    padding-bottom: 40px;
+  }
+}
