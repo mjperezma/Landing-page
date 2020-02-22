@@ -1,14 +1,7 @@
 @import "core/settings";
 @import "core/_reset";
 @import "layout/_header";
-@import "components/_primarysection";
-@import "components/_secondarysection";
+@import "layout/_primarysection";
+@import "layout/_secondarysection";
+@import "core/mediaqueries";
 @import "layout/footer";
-
-
-
-.secondary__section {
-
-  border: solid yellow 3px;
-
-}

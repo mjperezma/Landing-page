@@ -2,9 +2,11 @@
 
   background-color: #304268;
   text-align: center;
+
+
 }
 
-.buttom__scroll__up {
+.button__up {
   width: 45px;
   height: 45px;
   background: white;
@@ -13,7 +15,7 @@
   position: relative;
   top: -23px;
 
-  img {
+  &__img {
     position: relative;
     top: 12px;
 
@@ -26,23 +28,25 @@
   font-family: 'Roboto Slab', ;
   font-size: 14px;
   line-height: 30px;
+  padding-bottom: 30px;
+  list-style: none;
+
+  &__link {
+    margin-bottom: 30px;
+  }
 
   a {
     text-decoration: none;
     color: white;
   }
 
-}
-
-.links__articles {
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-}
-
-.copyright {
-
-  p {
-    padding-bottom: 40px;
+  ul {
+    list-style: none;
   }
+
+  &__copyright--text {
+    color: white;
+    padding-bottom: 40px
+  }
+
 }
