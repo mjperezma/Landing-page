@@ -1,0 +1,42 @@
+.secondary__section {
+  text-align: center;
+  background-color: #eff9ff;
+
+  &__title {
+    font-family: 'Roboto Slab', ;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    margin: 30px 0;
+  }
+
+  &__buttom {
+    font-family: 'Roboto', ;
+    font-size: 20px;
+    color: white;
+    background: #f26002;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin-bottom: 50px;
+
+  }
+}
+
+.article {
+  &__title {
+
+    font-family: 'Roboto Slab', ;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+  }
+
+  &__description {
+    font-family: 'Roboto', ;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+
+  }
+}
