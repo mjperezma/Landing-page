@@ -6,6 +6,25 @@
     padding-top: 30px;
   }
 
+  .primary__section {
+    margin: 40px 90px 0 40px;
+
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+
+    &__description {
+
+      font-size: 20px;
+    }
+
+    &__buttom {
+
+      width: 91px;
+    }
+  }
+
   .article {
     margin-right: 40px;
     margin-left: 40px;
