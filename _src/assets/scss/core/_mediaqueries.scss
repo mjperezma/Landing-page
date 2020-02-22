@@ -48,3 +48,30 @@
     }
   }
 }
+
+
+
+
+@media all and (min-width:1280px) {
+
+
+  .menu__footer {
+
+    justify-content: center;
+    text-align: left;
+
+
+    &__link {
+      margin-right: 70px;
+      padding-right: 50px;
+    }
+
+    &__link--redes {
+      margin-right: 70px;
+    }
+
+    &__copyright {
+      margin-right: 70px;
+    }
+  }
+}
