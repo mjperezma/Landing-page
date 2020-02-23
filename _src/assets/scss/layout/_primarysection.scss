@@ -25,7 +25,7 @@
     line-height: 30px;
   }
 
-  &__buttom {
+  &__button {
 
     border-radius: 22.5px;
     border: solid #f26002 3px;
@@ -38,6 +38,14 @@
     font-family: 'Roboto Slab', ;
     font-weight: bolder;
     font-size: 20px;
+    transition: all ease 0.5s;
+
+
+    &:hover {
+      color: white;
+      background-color: #f26002;
+      box-shadow: 0 0 10px white;
+    }
   }
 
 }

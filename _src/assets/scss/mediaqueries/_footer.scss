@@ -1,0 +1,50 @@
+// MEDIA QUERIES TABLET 
+
+
+@media all and (min-width:768px) {
+
+  .menu__footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+
+    &__section {
+      order: 2;
+      margin-right: 130px;
+    }
+
+    &__section--redes {
+      order: 3;
+      margin-right: 60px;
+    }
+
+    &__copyright {
+      order: 1;
+      margin-right: 40px;
+    }
+  }
+}
+
+// MEDIA QUERIES DESKTOP
+
+@media all and (min-width:1280px) {
+
+  .menu__footer {
+
+    justify-content: center;
+
+    &__section {
+      margin-right: 70px;
+      padding-right: 50px;
+    }
+
+    &__section--redes {
+      margin-right: 70px;
+    }
+
+    &__copyright {
+      margin-right: 70px;
+    }
+  }
+}

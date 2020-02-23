@@ -3,7 +3,6 @@
   background-color: #304268;
   text-align: center;
 
-
 }
 
 .button__up {
@@ -24,27 +23,31 @@
 
 .menu__footer {
   text-transform: uppercase;
-
   font-family: 'Roboto Slab', ;
   font-size: 14px;
   line-height: 30px;
   padding-bottom: 30px;
   list-style: none;
 
-  &__link {
+  &__section {
     margin-bottom: 30px;
   }
 
-  a {
+  &__section--redes {
+    margin-bottom: 30px;
+  }
+
+  &__link {
     text-decoration: none;
     color: white;
   }
 
-  ul {
+  &__list {
     list-style: none;
   }
 
-  &__copyright--text {
+
+  &__copyright__text {
     color: white;
     padding-bottom: 40px
   }
