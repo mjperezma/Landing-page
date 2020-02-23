@@ -1,20 +1,23 @@
 .secondary__section {
   text-align: center;
-  background-color: #eff9ff;
+  background-color: $color-white;
 
   &__title {
-    font-family: 'Roboto Slab', ;
+    font-family: $font-primary;
+    font-weight: $font-weightbold;
     font-size: 24px;
+    line-height: $line-height;
     margin-bottom: 20px;
     text-transform: capitalize;
     padding: 30px 0;
   }
 
   &__button {
-    font-family: 'Roboto', ;
+    font-family: $font-secundary;
+    font-weight: $font-weightmedium;
     font-size: 20px;
-    color: white;
-    background: #f26002;
+    color: $color-white;
+    background: $color-orange;
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
@@ -23,10 +26,10 @@
     transition: all ease 0.5s;
 
     &:hover {
-      background-color: white;
-      color: #f26002;
+      background-color: $color-white;
+      color: $color-orange;
       box-shadow: 0 0 20px black;
-      font-weight: bolder;
+      font-weight: $font-weightbold;
     }
 
   }
@@ -35,16 +38,18 @@
 .article {
   &__title {
 
-    font-family: 'Roboto Slab', ;
+    font-family: $font-primary;
+    font-weight: $font-weightbold;
     font-size: 18px;
-    line-height: 30px;
+    line-height: $line-height;
 
   }
 
   &__description {
-    font-family: 'Roboto', ;
+    font-family: $font-secundary;
+    font-weight: $font-weightregular;
     font-size: 18px;
-    line-height: 30px;
+    line-height: $line-height;
     margin-bottom: 40px;
     padding: 0 100px;
 

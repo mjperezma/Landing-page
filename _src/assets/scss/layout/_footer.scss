@@ -1,6 +1,6 @@
 .footer {
 
-  background-color: #304268;
+  background-color: $color-darkblue;
   text-align: center;
 
 }
@@ -8,7 +8,7 @@
 .button__up {
   width: 45px;
   height: 45px;
-  background: white;
+  background: $color-white;
   border-radius: 50px;
   display: inline-block;
   position: relative;
@@ -23,9 +23,10 @@
 
 .menu__footer {
   text-transform: uppercase;
-  font-family: 'Roboto Slab', ;
+  font-family: $font-secundary;
+  font-weight: $font-weightregular;
   font-size: 14px;
-  line-height: 30px;
+  line-height: $line-height;
   padding-bottom: 30px;
   list-style: none;
 
@@ -39,7 +40,7 @@
 
   &__link {
     text-decoration: none;
-    color: white;
+    color: $color-white;
   }
 
   &__list {
@@ -48,7 +49,7 @@
 
 
   &__copyright__text {
-    color: white;
+    color: $color-white;
     padding-bottom: 40px
   }
 

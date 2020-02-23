@@ -4,47 +4,48 @@
   margin-left: 20px;
 
   &__subtitle {
-    font-family: 'Roboto', ;
-    font-size: 16px;
+    font-family: $font-secundary;
+    font-weight: $font-weightregular;
+    font-size: 14px;
     color: #8ccbea;
     margin-bottom: 20px;
-    line-height: 30px;
   }
 
   &__title {
-    font-family: 'Roboto Slab', ;
+    font-family: $font-primary;
+    font-weight: $font-weightbold;
     font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    line-height: 30px;
+    line-height: $line-height;
   }
 
   &__description {
-    font-family: 'Roboto', ;
+    font-family: $font-secundary;
     font-size: 18px;
-    line-height: 30px;
+    line-height: $line-height;
   }
 
   &__button {
 
     border-radius: 22.5px;
-    border: solid #f26002 3px;
-    color: #f26002;
-    background-color: white;
+    border: solid $color-orange 3px;
+    color: $color-orange;
+    background-color: $color-white;
     width: 76px;
     height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto Slab', ;
-    font-weight: bolder;
+    font-family: $font-secundary;
+    font-weight: $font-weightmedium;
     font-size: 20px;
     transition: all ease 0.5s;
 
 
     &:hover {
-      color: white;
-      background-color: #f26002;
-      box-shadow: 0 0 10px white;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: 0 0 10px $color-white;
     }
   }
 

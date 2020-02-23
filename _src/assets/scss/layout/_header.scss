@@ -1,6 +1,6 @@
 .icon__header {
 
-  background-color: #0271bc;
+  background-color: $color-blue;
   height: 44px;
   width: 44px;
   position: fixed;
@@ -32,39 +32,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: $color-white;
 
   &__primary {
-    font-family: 'Roboto Slab', ;
+    font-family: $font-primary;
     font-size: 44px;
-    font-weight: bold;
+    font-weight: $font-weightbold;
     text-transform: uppercase;
     line-height: 55px;
 
   }
 
   &__secondary {
-
-    font-family: 'Roboto Slab', ;
+    font-family: $font-primary;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: $font-weightbold;
     font-size: 44px;
     margin-bottom: 10px;
-
-    &__tertiary {
-      font-size: 16px;
-      font-family: 'Roboto', ;
-      margin-bottom: 30px;
-
-
-    }
+    line-height: 55px;
   }
 
+  &__tertiary {
+    font-size: 16px;
+    font-family: $font-secundary;
+    font-weight: $font-weightregular;
+    margin-bottom: 30px;
+
+
+  }
 }
 
 
 .scroll__top {
-  background-color: white;
+  background-color: $color-white;
   border-radius: 50px;
   width: 30px;
   height: 30px;
