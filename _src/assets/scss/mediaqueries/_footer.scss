@@ -9,12 +9,12 @@
     text-align: left;
 
 
-    &__link {
+    &__section {
       order: 2;
       margin-right: 130px;
     }
 
-    &__link--redes {
+    &__section--redes {
       order: 3;
       margin-right: 60px;
     }
@@ -34,14 +34,12 @@
 
     justify-content: center;
 
-
-
-    &__link {
+    &__section {
       margin-right: 70px;
       padding-right: 50px;
     }
 
-    &__link--redes {
+    &__section--redes {
       margin-right: 70px;
     }
 
