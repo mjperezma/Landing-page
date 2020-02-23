@@ -22,7 +22,7 @@
 }
 
 .menu__footer {
-  text-transform: uppercase;
+
   font-family: $font-secundary;
   font-weight: $font-weightregular;
   font-size: 14px;
@@ -32,6 +32,7 @@
 
   &__section {
     margin-bottom: 30px;
+    text-transform: uppercase;
   }
 
   &__section--redes {

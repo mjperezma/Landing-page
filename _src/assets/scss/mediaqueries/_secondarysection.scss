@@ -6,6 +6,7 @@
   .secondary__section {
     &__title {
       padding-top: 30px;
+      font-size: 26px;
     }
 
     &__button {
@@ -24,10 +25,12 @@
 
 
     &__title {
+      font-size: 24px;
       margin-bottom: 14px;
     }
 
     &__description {
+      font-size: 20px;
       padding: 0 10px;
       margin-bottom: 0;
     }

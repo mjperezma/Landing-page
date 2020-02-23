@@ -3,17 +3,33 @@
 
 @media all and (min-width:768px) {
 
+  .scroll__top {
+    width: 45px;
+    height: 45px;
+
+    &__img {
+
+      position: relative;
+      top: 18px;
+      left: 12px;
+
+
+    }
+  }
+
   .container__letter {
 
     &__primary {
 
       font-size: 80px;
       line-height: 106px;
+      margin-bottom: 20px;
     }
 
     &__secondary {
 
       font-size: 80px;
+      margin-bottom: 40px;
     }
 
     &__tertiary {
@@ -33,12 +49,13 @@
 
       font-size: 100px;
       line-height: 132px;
+      margin-bottom: 20px;
     }
 
     &__secondary {
 
       font-size: 100px;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
   }
 }
