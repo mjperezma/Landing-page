@@ -3,5 +3,8 @@
 @import "layout/_header";
 @import "layout/_primarysection";
 @import "layout/_secondarysection";
-@import "core/mediaqueries";
+@import "mediaqueries/mediaheader";
+@import "mediaqueries/mediaprimarysection";
+@import "mediaqueries/mediasecondarysection";
+@import "mediaqueries/mediafooter";
 @import "layout/footer";

@@ -1,0 +1,31 @@
+//MEDIA TABLET//
+
+@media all and (min-width:768px) {
+
+  .primary__section {
+    margin-left: 39px;
+    margin-right: 39px;
+
+    &__buttom {
+      width: 91px;
+      height: 45px;
+    }
+  }
+}
+
+// MEDIA QUERIES DESKTOP
+
+@media all and (min-width:1280px) {
+
+  .primary__section {
+
+    margin-right: 275px;
+    margin-left: 275px;
+
+    &__buttom {
+
+      width: 160px;
+      height: 45px;
+    }
+  }
+}

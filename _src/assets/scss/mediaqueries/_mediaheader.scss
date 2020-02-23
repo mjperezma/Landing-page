@@ -1,0 +1,44 @@
+//MEDIA TABLET //
+
+
+@media all and (min-width:768px) {
+
+  .container__letter {
+
+    &__primary {
+
+      font-size: 80px;
+      line-height: 106px;
+    }
+
+    &__secondary {
+
+      font-size: 80px;
+    }
+
+    &__tertiary {
+
+      font-size: 24px;
+    }
+  }
+}
+
+
+// MEDIA QUERIES DESKTOP
+
+@media all and (min-width:1280px) {
+  .container__letter {
+
+    &__primary {
+
+      font-size: 100px;
+      line-height: 132px;
+    }
+
+    &__secondary {
+
+      font-size: 100px;
+      margin-bottom: 20px;
+    }
+  }
+}
