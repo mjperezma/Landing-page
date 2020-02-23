@@ -1,9 +1,46 @@
+// MEDIA QUERIES TABLET 
+
+
 @media all and (min-width:768px) {
 
+  .container__letter {
 
-  .secondary__section__title {
+    &__primary {
 
-    padding-top: 30px;
+      font-size: 80px;
+      line-height: 106px;
+    }
+
+    &__secondary {
+
+      font-size: 80px;
+    }
+
+    &__tertiary {
+
+      font-size: 24px;
+    }
+  }
+
+  .primary__section {
+    margin-left: 39px;
+    margin-right: 39px;
+
+    &__buttom {
+      width: 91px;
+      height: 45px;
+    }
+  }
+
+  .secondary__section {
+    &__title {
+      padding-top: 30px;
+    }
+
+    &__buttom {
+      margin-top: 60px;
+    }
+
   }
 
   .article {
@@ -12,6 +49,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+
+    &__title {
+      margin-bottom: 14px;
+    }
+
+    &__description {
+      padding: 0 10px;
+    }
 
     &__one {
 
@@ -33,32 +78,87 @@
   .menu__footer {
     display: flex;
     justify-content: space-around;
+    text-align: left;
 
 
     &__link {
       order: 2;
+      margin-right: 130px;
     }
 
     &__link--redes {
       order: 3;
+      margin-right: 60px;
     }
 
     &__copyright {
       order: 1;
+      margin-right: 40px;
     }
   }
 }
 
 
-
+// MEDIA QUERIES DESKTOP
 
 @media all and (min-width:1280px) {
+  .container__letter {
+
+    &__primary {
+
+      font-size: 100px;
+      line-height: 132px;
+    }
+
+    &__secondary {
+
+      font-size: 100px;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .primary__section {
+
+    margin-right: 275px;
+    margin-left: 275px;
+
+    &__buttom {
+
+      width: 160px;
+      height: 45px;
+    }
+  }
+
+  .secondary__section {
+
+    &__title {
+
+      padding-top: 60px;
+      font-size: 32px;
+    }
+  }
+
+  .article {
+    padding: 0 40px;
+
+    &__title {
+
+      font-size: 24px;
+    }
+
+    &__description {
+
+      font-size: 20px;
+    }
+  }
+
 
 
   .menu__footer {
 
     justify-content: center;
-    text-align: left;
+
 
 
     &__link {

@@ -37,7 +37,9 @@
   &__primary {
     font-family: 'Roboto Slab', ;
     font-size: 44px;
+    font-weight: bold;
     text-transform: uppercase;
+    line-height: 55px;
 
   }
 
@@ -45,8 +47,9 @@
 
     font-family: 'Roboto Slab', ;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 44px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     &__tertiary {
       font-size: 16px;
