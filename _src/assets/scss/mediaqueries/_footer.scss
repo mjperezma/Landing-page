@@ -7,24 +7,43 @@
     display: flex;
     justify-content: space-around;
     text-align: left;
+    font-size: 16px;
 
 
     &__section {
       order: 2;
       margin-right: 130px;
+      animation-name: menu;
+      animation-duration: 10s;
     }
 
     &__section--redes {
       order: 3;
       margin-right: 60px;
+      animation-name: menu;
+      animation-duration: 10s;
     }
 
     &__copyright {
       order: 1;
       margin-right: 40px;
+      animation-name: menu;
+      animation-duration: 10s;
     }
   }
 }
+
+@keyframes menu {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 // MEDIA QUERIES DESKTOP
 
@@ -33,9 +52,11 @@
   .menu__footer {
 
     justify-content: center;
+    animation-name: menudesktop;
+    animation-duration: 5s;
 
     &__section {
-      margin-right: 70px;
+      margin-right: 60px;
       padding-right: 50px;
     }
 
@@ -46,5 +67,16 @@
     &__copyright {
       margin-right: 70px;
     }
+  }
+
+}
+
+@keyframes menudesktop {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
   }
 }
