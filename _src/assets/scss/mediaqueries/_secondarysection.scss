@@ -5,26 +5,28 @@
 
   .secondary__section {
     display: grid;
-    grid-template-rows: 21vh 20vh 30vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 
     &__title {
       padding-top: 30px;
       font-size: 26px;
+      grid-column: 2/3;
+      grid-row: 1/2;
 
     }
 
     &__button {
       margin: 60px 0;
-
+      grid-column: 2/3;
+      margin-left: 40px;
     }
 
   }
 
   .article {
 
-    display: grid;
-    grid-template-columns: auto auto auto;
     padding: 0 55px;
     margin-right: 40px;
     margin-left: 40px;
@@ -41,6 +43,22 @@
       margin-bottom: 0;
     }
 
+    &__one {
+
+      grid-row: 2/3;
+    }
+
+    grid-row: 2/3;
+
+    &__two {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    &__three {
+      grid-column: 4/3;
+      grid-row: 2/3;
+    }
   }
 
   // MEDIA QUERIES DESKTOP
