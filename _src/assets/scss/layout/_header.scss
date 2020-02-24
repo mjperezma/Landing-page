@@ -38,14 +38,14 @@
     font-family: $font-primary;
     font-size: 44px;
     font-weight: $font-weightbold;
-    text-transform: uppercase;
+    text-transform: $font-uppercase;
     line-height: 55px;
 
   }
 
   &__secondary {
     font-family: $font-primary;
-    text-transform: uppercase;
+    text-transform: $font-uppercase;
     font-weight: $font-weightbold;
     font-size: 44px;
     margin-bottom: 10px;
