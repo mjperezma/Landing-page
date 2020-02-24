@@ -8,7 +8,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-
     &__title {
       padding-top: 30px;
       font-size: 26px;
@@ -18,9 +17,9 @@
     }
 
     &__button {
-      margin: 60px 0;
       grid-column: 2/3;
-      margin-left: 40px;
+      justify-self: center;
+      align-self: center;
     }
 
   }
@@ -66,9 +65,6 @@
   @media all and (min-width:1280px) {
 
     .secondary__section {
-      grid-template-rows: 21vh 20vh 30vh;
-      padding: 30px;
-
       &__title {
 
         padding-top: 60px;
@@ -87,7 +83,7 @@
       &__description {
 
         font-size: 20px;
-        padding: 0 20px;
+        padding: 0 80px;
       }
     }
   }
